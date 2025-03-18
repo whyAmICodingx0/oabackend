@@ -11,9 +11,13 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import os
+import environ
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
+env = environ.Env()
 BASE_DIR = Path(__file__).resolve().parent.parent
+# 读取.env文件，在服务器项目的根路径上要创建一个
+environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 
 # Quick-start development settings - unsuitable for production
@@ -88,11 +92,11 @@ WSGI_APPLICATION = 'django_vue.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_vue', #數據庫名字
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': '127.0.0.1',
-        'PORT': 3306,
+        "NAME": env.str('DB_NAME', 'django_vue'),
+        "USER": env.str('DB_USER', "root"),
+        "PASSWORD": env.str("DB_PASSWORD", "root"),
+        "HOST": env.str('DB_HOST', 'localhost'),
+        "PORT": env.str('DB_PORT', 3306),
     }
 }
 
@@ -174,15 +178,15 @@ DEFAULT_FROM_EMAIL = 'james1859635@gmail.com'
 
 # CELERY相關配置
 # 中間人配置
-CELERY_BROKER_URL = 'redis://127.0.0.1:6379/1'
-# 指定结果的接受地址
-CELERY_RESULT_BACKEND = 'redis://127.0.0.1:6379/2'
+CELERY_BROKER_URL = env.str('CELERY_BROKER_URL', 'redis://127.0.0.1:6379/1')
+CELERY_RESULT_BACKEND = env.str('CELERY_RESULT_BACKEND', 'redis://127.0.0.1:6379/2')
+CELERY_BROKER_CONNECTION_RETRY_ON_STARTUP = True
 
 # 緩存設置
 CACHES = {
     "default": {
         "BACKEND": "django.core.cache.backends.redis.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/3",
+        "LOCATION": env.str('CACHE_URL', "redis://127.0.0.1:6379/3"),
     }
 }
 
