@@ -1,0 +1,1222 @@
+2025-03-07 16:47:18,616 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-07 16:47:18,654 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-03-07 16:47:18,655 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-07 16:47:18,659 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-03-07 16:52:02,810 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-07 16:57:01,776 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error while reading from 127.0.0.1:6379 : (10054, '遠端主機已強制關閉一個現存的連線。', None, 10054, None).
+Trying again in 2.00 seconds... (1/100)
+
+2025-03-07 16:57:05,804 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 4.00 seconds... (2/100)
+
+2025-03-07 16:57:11,842 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 6.00 seconds... (3/100)
+
+2025-03-07 16:57:19,891 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 8.00 seconds... (4/100)
+
+2025-03-07 16:57:29,935 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 10.00 seconds... (5/100)
+
+2025-03-07 16:57:40,035 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-03-07 16:57:40,036 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-07 16:57:40,041 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-03-07 16:57:41,064 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-03-07 16:57:41,094 - celery.apps.worker - INFO - celery@MSI ready.
+2025-03-07 16:57:41,097 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-07 16:57:41,106 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-03-07 16:58:07,211 - celery.worker.strategy - INFO - Task django_vue.celery.debug_task[671753f0-2382-4786-b89c-0bd0a2b91211] received
+2025-03-07 16:58:07,213 - celery.redirected - WARNING - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2025-03-07 16:58:07,235 - celery.app.trace - INFO - Task django_vue.celery.debug_task[671753f0-2382-4786-b89c-0bd0a2b91211] succeeded in 0.014999999984866008s: None
+2025-03-07 17:30:56,032 - celery.worker.consumer.consumer - ERROR - Received unregistered task of type 'send_mail_task'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+https://docs.celeryq.dev/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[["ruru159321@gmail.com", "\\u5e33\\u865f\\u6fc0\\u6d3b\\u901a\\u77e5", "\\u8acb\\u9ede\\u96c6\\u4ee5\\u4e0b\\u9023\\u7d50\\u6fc0\\u6d3b\\u5e33\\u865f: http://127.0.0.1:8000/staff/active?token=fmzKNLituQNZfIHm9T5OvC7zX/JTaT9Wyqz1owQiv93abEJTtMv1aBe/uBvIs6g2"], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (316b)
+
+The full contents of the message headers:
+{'lang': 'py', 'task': 'send_mail_task', 'id': 'f8285b77-8baf-4f15-b4cd-57d34683ac68', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'f8285b77-8baf-4f15-b4cd-57d34683ac68', 'parent_id': None, 'argsrepr': "('ruru159321@gmail.com', '帳號激活通知', '請點集以下連結激活帳號: http://127.0.0.1:8000/staff/active?token=fmzKNLituQNZfIHm9T5OvC7zX/JTaT9Wyqz1owQiv93abEJTtMv1aBe/uBvIs6g2')", 'kwargsrepr': '{}', 'origin': 'gen16988@MSI', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}}
+
+The delivery info for this task is:
+{'exchange': '', 'routing_key': 'celery'}
+Traceback (most recent call last):
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py", line 659, in on_task_received
+    strategy = strategies[type_]
+               ~~~~~~~~~~^^^^^^^
+KeyError: 'send_mail_task'
+2025-03-07 17:34:22,918 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-07 17:34:23,002 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-03-07 17:34:23,003 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-07 17:34:23,005 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-03-07 17:34:24,026 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-03-07 17:34:24,031 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-07 17:34:24,038 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-03-07 17:34:24,049 - celery.apps.worker - INFO - celery@MSI ready.
+2025-03-07 17:34:53,623 - celery.worker.strategy - INFO - Task send_mail_task[e058e3e7-11cb-419d-8fa6-280f0a48b216] received
+2025-03-07 17:34:56,736 - celery.redirected - WARNING - 寄郵件成功: 
+2025-03-07 17:34:56,737 - celery.redirected - WARNING -  
+2025-03-07 17:34:56,737 - celery.redirected - WARNING - ruru159321@gmail.com
+2025-03-07 17:34:56,773 - celery.app.trace - INFO - Task send_mail_task[e058e3e7-11cb-419d-8fa6-280f0a48b216] succeeded in 3.1560000000172295s: None
+2025-03-07 17:41:43,243 - celery.worker.strategy - INFO - Task send_mail_task[d203b2e1-7de6-4cc6-bc8f-54dc2638a564] received
+2025-03-07 17:41:45,575 - celery.redirected - WARNING - 寄郵件成功: 
+2025-03-07 17:41:45,575 - celery.redirected - WARNING -  
+2025-03-07 17:41:45,575 - celery.redirected - WARNING - ruru159321@gmail.com
+2025-03-07 17:41:45,591 - celery.app.trace - INFO - Task send_mail_task[d203b2e1-7de6-4cc6-bc8f-54dc2638a564] succeeded in 2.3440000000118744s: None
+2025-03-07 17:43:07,197 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-07 17:43:07,229 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-03-07 17:43:07,230 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-07 17:43:07,236 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-03-07 17:43:08,254 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-03-07 17:43:08,276 - celery.apps.worker - INFO - celery@MSI ready.
+2025-03-07 17:43:08,279 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-07 17:43:08,287 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-03-07 17:43:25,336 - celery.worker.strategy - INFO - Task send_mail_task[7488fccb-cbb9-4d31-8728-3d97bb0b58a8] received
+2025-03-07 17:43:28,201 - celery.redirected - WARNING - 'ruru159321@gmail.com'
+2025-03-07 17:43:28,201 - celery.redirected - WARNING - *
+2025-03-07 17:43:28,202 - celery.redirected - WARNING - 寄郵件成功: 
+2025-03-07 17:43:28,203 - celery.redirected - WARNING -  
+2025-03-07 17:43:28,203 - celery.redirected - WARNING - ruru159321@gmail.com
+2025-03-07 17:43:28,204 - celery.redirected - WARNING - *
+2025-03-07 17:43:28,205 - celery.redirected - WARNING - 寄郵件成功: ruru159321@gmail.com
+2025-03-07 17:43:28,205 - celery.redirected - WARNING - *
+2025-03-07 17:43:28,206 - celery.redirected - WARNING - 寄郵件成功: ruru159321@gmail.com
+2025-03-07 17:43:28,242 - celery.app.trace - INFO - Task send_mail_task[7488fccb-cbb9-4d31-8728-3d97bb0b58a8] succeeded in 2.9059999999881256s: None
+2025-03-10 14:21:31,266 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-10 14:21:31,470 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-03-10 14:21:31,472 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-10 14:21:31,476 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-03-10 14:21:32,553 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-03-10 14:21:32,572 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-10 14:21:32,590 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-03-10 14:21:32,600 - celery.apps.worker - INFO - celery@MSI ready.
+2025-03-10 14:31:59,859 - celery.worker.strategy - INFO - Task send_mail_task[b435ef93-6cd8-44d7-af32-ca4d9f9e11f6] received
+2025-03-10 14:32:03,276 - celery.redirected - WARNING - 寄郵件成功
+2025-03-10 14:32:03,295 - celery.app.trace - INFO - Task send_mail_task[b435ef93-6cd8-44d7-af32-ca4d9f9e11f6] succeeded in 3.4380000000237487s: None
+2025-03-10 15:33:56,205 - celery.worker.strategy - INFO - Task send_mail_task[16146bbb-efd8-4a69-8288-30764a5a0dd1] received
+2025-03-10 15:33:58,926 - celery.redirected - WARNING - 寄郵件成功
+2025-03-10 15:33:58,950 - celery.app.trace - INFO - Task send_mail_task[16146bbb-efd8-4a69-8288-30764a5a0dd1] succeeded in 2.7339999999967404s: None
+2025-03-12 14:42:41,855 - celery.worker.consumer.consumer - WARNING - consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 592, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\resp2.py", line 15, in read_response
+    result = self._read_response(disable_decoding=disable_decoding)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\resp2.py", line 25, in _read_response
+    raw = self._buffer.readline()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\socket.py", line 115, in readline
+    self._read_from_socket()
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\socket.py", line 65, in _read_from_socket
+    data = self._sock.recv(socket_read_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\gevent\_socketcommon.py", line 656, in recv
+    return self._sock.recv(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] 遠端主機已強制關閉一個現存的連線。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py", line 340, in start
+    blueprint.start(self)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\bootsteps.py", line 116, in start
+    step.start(parent)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py", line 746, in start
+    c.loop(*c.loop_args())
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\loops.py", line 130, in synloop
+    connection.drain_events(timeout=2.0)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\connection.py", line 341, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\virtual\base.py", line 997, in drain_events
+    get(self._deliver, timeout=timeout)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 591, in get
+    ret = self.handle_event(fileno, event)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 573, in handle_event
+    return self.on_readable(fileno), self
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 569, in on_readable
+    chan.handlers[type]()
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 918, in _receive
+    ret.append(self._receive_one(c))
+               ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 928, in _receive_one
+    response = c.parse_response()
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 865, in parse_response
+    response = self._execute(conn, try_read)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 841, in _execute
+    return conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\retry.py", line 65, in call_with_retry
+    fail(error)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 843, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 830, in _disconnect_raise_connect
+    raise error
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 842, in <lambda>
+    lambda: command(*args, **kwargs),
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 863, in try_read
+    return conn.read_response(disconnect_on_error=False, push_request=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 600, in read_response
+    raise ConnectionError(
+redis.exceptions.ConnectionError: Error while reading from 127.0.0.1:6379 : (10054, '遠端主機已強制關閉一個現存的連線。', None, 10054, None)
+2025-03-12 14:42:44,202 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:391: CPendingDeprecationWarning: 
+In Celery 5.1 we introduced an optional breaking change which
+on connection loss cancels all currently executed tasks with late acknowledgement enabled.
+These tasks cannot be acknowledged as the connection is gone, and the tasks are automatically redelivered
+back to the queue. You can enable this behavior using the worker_cancel_long_running_tasks_on_connection_loss
+setting. In Celery 5.1 it is set to False by default. The setting will be set to True by default in Celery 6.0.
+
+  warnings.warn(CANCEL_TASKS_BY_DEFAULT, CPendingDeprecationWarning)
+
+2025-03-12 14:42:44,204 - celery.worker.consumer.consumer - INFO - Temporarily reducing the prefetch count to 4 to avoid over-fetching since 0 tasks are currently being processed.
+The prefetch count will be gradually restored to 0 as the tasks complete processing.
+2025-03-12 14:42:44,281 - celery.redirected - WARNING - Traceback (most recent call last):
+2025-03-12 14:42:44,282 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 592, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,282 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\resp2.py", line 15, in read_response
+    result = self._read_response(disable_decoding=disable_decoding)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,283 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\resp2.py", line 25, in _read_response
+    raw = self._buffer.readline()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,284 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\socket.py", line 115, in readline
+    self._read_from_socket()
+2025-03-12 14:42:44,284 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\socket.py", line 65, in _read_from_socket
+    data = self._sock.recv(socket_read_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,285 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\gevent\_socketcommon.py", line 656, in recv
+    return self._sock.recv(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,285 - celery.redirected - WARNING - ConnectionResetError: [WinError 10054] 遠端主機已強制關閉一個現存的連線。
+2025-03-12 14:42:44,286 - celery.redirected - WARNING - 
+During handling of the above exception, another exception occurred:
+2025-03-12 14:42:44,286 - celery.redirected - WARNING - Traceback (most recent call last):
+2025-03-12 14:42:44,288 - celery.redirected - WARNING -   File "src\\gevent\\_waiter.py", line 122, in gevent._gevent_c_waiter.Waiter.switch
+2025-03-12 14:42:44,288 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\pidbox.py", line 118, in loop
+    connection.drain_events(timeout=1.0)
+2025-03-12 14:42:44,289 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\connection.py", line 341, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,289 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\virtual\base.py", line 997, in drain_events
+    get(self._deliver, timeout=timeout)
+2025-03-12 14:42:44,290 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 591, in get
+    ret = self.handle_event(fileno, event)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,290 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 573, in handle_event
+    return self.on_readable(fileno), self
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,290 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 569, in on_readable
+    chan.handlers[type]()
+2025-03-12 14:42:44,291 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 918, in _receive
+    ret.append(self._receive_one(c))
+               ^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,291 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 928, in _receive_one
+    response = c.parse_response()
+               ^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,291 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 865, in parse_response
+    response = self._execute(conn, try_read)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,292 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 841, in _execute
+    return conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,292 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\retry.py", line 65, in call_with_retry
+    fail(error)
+2025-03-12 14:42:44,293 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 843, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,293 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 830, in _disconnect_raise_connect
+    raise error
+2025-03-12 14:42:44,293 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+2025-03-12 14:42:44,294 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 842, in <lambda>
+    lambda: command(*args, **kwargs),
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,294 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 863, in try_read
+    return conn.read_response(disconnect_on_error=False, push_request=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 14:42:44,294 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 600, in read_response
+    raise ConnectionError(
+2025-03-12 14:42:44,295 - celery.redirected - WARNING - redis.exceptions.ConnectionError: Error while reading from 127.0.0.1:6379 : (10054, '遠端主機已強制關閉一個現存的連線。', None, 10054, None)
+2025-03-12 14:42:44,296 - celery.redirected - WARNING - 2025-03-12T06:42:44Z
+2025-03-12 14:42:44,296 - celery.redirected - WARNING -  
+2025-03-12 14:42:44,298 - celery.redirected - WARNING - <built-in method switch of gevent._gevent_c_greenlet_primitives.TrackedRawGreenlet object at 0x000001512DE73440> failed with ConnectionError
+2025-03-12 14:42:44,301 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-12 14:42:46,328 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 2.00 seconds... (1/100)
+
+2025-03-12 14:42:50,364 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 4.00 seconds... (2/100)
+
+2025-03-12 14:42:54,372 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-03-12 14:42:54,372 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-12 14:42:54,378 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-03-12 14:42:55,409 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-03-12 14:42:55,416 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-12 14:42:55,424 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-03-12 14:43:28,584 - celery.worker.strategy - INFO - Task send_mail_task[90abdd90-747c-4e08-b84d-c07dd6f24120] received
+2025-03-12 14:43:31,650 - celery.redirected - WARNING - 寄郵件成功
+2025-03-12 14:43:31,687 - celery.app.trace - INFO - Task send_mail_task[90abdd90-747c-4e08-b84d-c07dd6f24120] succeeded in 3.0929999999934807s: None
+2025-03-12 17:27:14,947 - celery.worker.consumer.consumer - WARNING - consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 592, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\resp2.py", line 15, in read_response
+    result = self._read_response(disable_decoding=disable_decoding)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\resp2.py", line 25, in _read_response
+    raw = self._buffer.readline()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\socket.py", line 115, in readline
+    self._read_from_socket()
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\socket.py", line 65, in _read_from_socket
+    data = self._sock.recv(socket_read_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\gevent\_socketcommon.py", line 656, in recv
+    return self._sock.recv(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] 遠端主機已強制關閉一個現存的連線。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py", line 340, in start
+    blueprint.start(self)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\bootsteps.py", line 116, in start
+    step.start(parent)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py", line 746, in start
+    c.loop(*c.loop_args())
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\loops.py", line 130, in synloop
+    connection.drain_events(timeout=2.0)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\connection.py", line 341, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\virtual\base.py", line 997, in drain_events
+    get(self._deliver, timeout=timeout)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 591, in get
+    ret = self.handle_event(fileno, event)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 573, in handle_event
+    return self.on_readable(fileno), self
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 569, in on_readable
+    chan.handlers[type]()
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 918, in _receive
+    ret.append(self._receive_one(c))
+               ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 928, in _receive_one
+    response = c.parse_response()
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 865, in parse_response
+    response = self._execute(conn, try_read)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 841, in _execute
+    return conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\retry.py", line 65, in call_with_retry
+    fail(error)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 843, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 830, in _disconnect_raise_connect
+    raise error
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 842, in <lambda>
+    lambda: command(*args, **kwargs),
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 863, in try_read
+    return conn.read_response(disconnect_on_error=False, push_request=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 600, in read_response
+    raise ConnectionError(
+redis.exceptions.ConnectionError: Error while reading from 127.0.0.1:6379 : (10054, '遠端主機已強制關閉一個現存的連線。', None, 10054, None)
+2025-03-12 17:27:17,035 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:391: CPendingDeprecationWarning: 
+In Celery 5.1 we introduced an optional breaking change which
+on connection loss cancels all currently executed tasks with late acknowledgement enabled.
+These tasks cannot be acknowledged as the connection is gone, and the tasks are automatically redelivered
+back to the queue. You can enable this behavior using the worker_cancel_long_running_tasks_on_connection_loss
+setting. In Celery 5.1 it is set to False by default. The setting will be set to True by default in Celery 6.0.
+
+  warnings.warn(CANCEL_TASKS_BY_DEFAULT, CPendingDeprecationWarning)
+
+2025-03-12 17:27:17,036 - celery.worker.consumer.consumer - INFO - Temporarily reducing the prefetch count to 4 to avoid over-fetching since 0 tasks are currently being processed.
+The prefetch count will be gradually restored to 0 as the tasks complete processing.
+2025-03-12 17:27:17,039 - celery.redirected - WARNING - Traceback (most recent call last):
+2025-03-12 17:27:17,040 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 534, in send_packed_command
+    self._sock.sendall(item)
+2025-03-12 17:27:17,040 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\gevent\_socketcommon.py", line 698, in sendall
+    return _sendall(self, data_memory, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 17:27:17,041 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\gevent\_socketcommon.py", line 387, in _sendall
+    timeleft = __send_chunk(socket, chunk, flags, timeleft, end)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 17:27:17,041 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\gevent\_socketcommon.py", line 316, in __send_chunk
+    data_sent += socket.send(chunk, flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 17:27:17,041 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\gevent\_socketcommon.py", line 721, in send
+    return self._sock.send(data, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 17:27:17,042 - celery.redirected - WARNING - ConnectionResetError: [WinError 10054] 遠端主機已強制關閉一個現存的連線。
+2025-03-12 17:27:17,042 - celery.redirected - WARNING - 
+During handling of the above exception, another exception occurred:
+2025-03-12 17:27:17,042 - celery.redirected - WARNING - Traceback (most recent call last):
+2025-03-12 17:27:17,043 - celery.redirected - WARNING -   File "src\\gevent\\_waiter.py", line 122, in gevent._gevent_c_waiter.Waiter.switch
+2025-03-12 17:27:17,044 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\pidbox.py", line 118, in loop
+    connection.drain_events(timeout=1.0)
+2025-03-12 17:27:17,044 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\connection.py", line 341, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 17:27:17,044 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\virtual\base.py", line 997, in drain_events
+    get(self._deliver, timeout=timeout)
+2025-03-12 17:27:17,044 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 591, in get
+    ret = self.handle_event(fileno, event)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 17:27:17,045 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 573, in handle_event
+    return self.on_readable(fileno), self
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-12 17:27:17,045 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 569, in on_readable
+    chan.handlers[type]()
+2025-03-12 17:27:17,045 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 918, in _receive
+    ret.append(self._receive_one(c))
+               ^^^^^^^^^^^^^^^^^^^^
+2025-03-12 17:27:17,046 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 928, in _receive_one
+    response = c.parse_response()
+               ^^^^^^^^^^^^^^^^^^
+2025-03-12 17:27:17,046 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 855, in parse_response
+    self.check_health()
+2025-03-12 17:27:17,046 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 893, in check_health
+    conn.send_command("PING", self.HEALTH_CHECK_MESSAGE, check_health=False)
+2025-03-12 17:27:17,047 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 556, in send_command
+    self.send_packed_command(
+2025-03-12 17:27:17,047 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 545, in send_packed_command
+    raise ConnectionError(f"Error {errno} while writing to socket. {errmsg}.")
+2025-03-12 17:27:17,047 - celery.redirected - WARNING - redis.exceptions.ConnectionError: Error 10054 while writing to socket. 遠端主機已強制關閉一個現存的連線。.
+2025-03-12 17:27:17,048 - celery.redirected - WARNING - 2025-03-12T09:27:17Z
+2025-03-12 17:27:17,048 - celery.redirected - WARNING -  
+2025-03-12 17:27:17,049 - celery.redirected - WARNING - <built-in method switch of gevent._gevent_c_greenlet_primitives.TrackedRawGreenlet object at 0x000001512DEBA540> failed with ConnectionError
+2025-03-12 17:27:19,098 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-12 17:27:21,138 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 2.00 seconds... (1/100)
+
+2025-03-12 17:27:25,193 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 4.00 seconds... (2/100)
+
+2025-03-12 17:27:31,214 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 6.00 seconds... (3/100)
+
+2025-03-12 17:27:39,270 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 8.00 seconds... (4/100)
+
+2025-03-12 17:27:49,305 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 10.00 seconds... (5/100)
+
+2025-03-12 17:28:01,358 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 12.00 seconds... (6/100)
+
+2025-03-12 17:28:15,398 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 14.00 seconds... (7/100)
+
+2025-03-12 17:28:31,450 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 16.00 seconds... (8/100)
+
+2025-03-12 17:28:49,515 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 18.00 seconds... (9/100)
+
+2025-03-12 17:29:09,553 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 20.00 seconds... (10/100)
+
+2025-03-12 17:29:31,595 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 22.00 seconds... (11/100)
+
+2025-03-12 17:29:55,626 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 24.00 seconds... (12/100)
+
+2025-03-12 17:30:21,688 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 26.00 seconds... (13/100)
+
+2025-03-12 17:30:49,723 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 28.00 seconds... (14/100)
+
+2025-03-12 17:31:19,779 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 30.00 seconds... (15/100)
+
+2025-03-12 17:31:51,865 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:32:25,901 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:32:59,943 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:33:33,997 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:34:08,046 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:34:42,070 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:35:16,104 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:35:50,155 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:36:24,217 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:36:58,274 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:37:32,326 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:38:06,373 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:38:40,419 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:39:14,465 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:39:48,498 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:40:22,530 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:40:56,575 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:41:30,625 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:42:04,670 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:42:38,715 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:43:12,738 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:43:46,795 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:44:20,835 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:44:54,900 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:45:28,965 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:46:02,998 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:46:37,043 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:47:11,109 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:47:45,163 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:48:19,196 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:48:53,236 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:49:27,280 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 17:50:01,322 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:04:39,047 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:05:13,088 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:05:47,118 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:06:21,188 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:06:55,256 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:07:29,319 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:08:03,382 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:08:37,440 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:09:11,509 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:09:45,579 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:10:19,635 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:10:53,703 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:11:27,762 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:12:01,825 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:12:35,879 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:13:09,947 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:13:44,006 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:14:18,070 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:14:52,132 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:15:26,200 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:16:00,266 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:16:34,338 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:17:08,370 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:17:42,433 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:18:16,495 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:18:50,537 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:19:24,599 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:19:58,660 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:20:32,722 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:21:06,793 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:21:40,850 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:22:14,919 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:22:48,979 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:23:23,050 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:23:57,116 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:24:31,177 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:25:05,241 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:25:39,298 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:26:13,363 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:26:47,428 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:27:21,486 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:27:55,544 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:28:29,603 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:29:03,671 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:29:37,741 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:30:11,809 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:30:45,864 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:31:19,925 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:31:53,972 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:32:28,032 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:33:02,103 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:33:36,148 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-12 18:34:10,192 - celery.worker - CRITICAL - Unrecoverable error: OperationalError('Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。.')
+Traceback (most recent call last):
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\virtual\base.py", line 951, in create_channel
+    return self._avail_channels.pop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 730, in _connect
+    raise err
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 718, in _connect
+    sock.connect(socket_address)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\gevent\_socketcommon.py", line 586, in connect
+    self._internal_connect(address)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\gevent\_socketcommon.py", line 630, in _internal_connect
+    raise _SocketError(err, strerror(err))
+ConnectionRefusedError: [Errno 10061] [WinError 10061] 無法連線，因為目標電腦拒絕連線。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\connection.py", line 472, in _reraise_as_library_errors
+    yield
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\connection.py", line 459, in _ensure_connection
+    return retry_over_time(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\utils\functional.py", line 318, in retry_over_time
+    return fun(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\connection.py", line 934, in _connection_factory
+    self._connection = self._establish_connection()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\connection.py", line 860, in _establish_connection
+    conn = self.transport.establish_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\virtual\base.py", line 975, in establish_connection
+    self._avail_channels.append(self.create_channel(self))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\virtual\base.py", line 953, in create_channel
+    channel = self.Channel(connection)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 744, in __init__
+    self.client.ping()
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\commands\core.py", line 1212, in ping
+    return self.execute_command("PING", **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\worker.py", line 202, in start
+    self.blueprint.start(self)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\bootsteps.py", line 116, in start
+    step.start(parent)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\bootsteps.py", line 365, in start
+    return self.obj.start()
+           ^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py", line 340, in start
+    blueprint.start(self)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\bootsteps.py", line 116, in start
+    step.start(parent)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\connection.py", line 21, in start
+    c.connection = c.connect()
+                   ^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py", line 470, in connect
+    conn = self.connection_for_read(heartbeat=self.amqheartbeat)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py", line 476, in connection_for_read
+    return self.ensure_connected(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py", line 527, in ensure_connected
+    conn = conn.ensure_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\connection.py", line 406, in ensure_connection
+    self._ensure_connection(*args, **kwargs)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\connection.py", line 458, in _ensure_connection
+    with ctx():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\connection.py", line 476, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。.
+2025-03-13 18:44:08,086 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-13 18:44:08,271 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-03-13 18:44:08,273 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-13 18:44:08,294 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-03-13 18:44:09,418 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-03-13 18:44:09,445 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-13 18:44:09,456 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-03-13 18:44:09,465 - celery.apps.worker - INFO - celery@MSI ready.
+2025-03-13 18:45:36,660 - celery.worker.strategy - INFO - Task send_mail_task[8ad943f6-ed96-478a-b513-94f9eeffaa57] received
+2025-03-13 18:45:39,268 - celery.redirected - WARNING - 寄郵件成功
+2025-03-13 18:45:39,312 - celery.app.trace - INFO - Task send_mail_task[8ad943f6-ed96-478a-b513-94f9eeffaa57] succeeded in 2.639999999999418s: None
+2025-03-13 19:27:35,154 - celery.worker.consumer.consumer - WARNING - consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 592, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\resp2.py", line 15, in read_response
+    result = self._read_response(disable_decoding=disable_decoding)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\resp2.py", line 25, in _read_response
+    raw = self._buffer.readline()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\socket.py", line 115, in readline
+    self._read_from_socket()
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\socket.py", line 65, in _read_from_socket
+    data = self._sock.recv(socket_read_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\gevent\_socketcommon.py", line 656, in recv
+    return self._sock.recv(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] 遠端主機已強制關閉一個現存的連線。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py", line 340, in start
+    blueprint.start(self)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\bootsteps.py", line 116, in start
+    step.start(parent)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py", line 746, in start
+    c.loop(*c.loop_args())
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\loops.py", line 130, in synloop
+    connection.drain_events(timeout=2.0)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\connection.py", line 341, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\virtual\base.py", line 997, in drain_events
+    get(self._deliver, timeout=timeout)
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 591, in get
+    ret = self.handle_event(fileno, event)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 573, in handle_event
+    return self.on_readable(fileno), self
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 569, in on_readable
+    chan.handlers[type]()
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 967, in _brpop_read
+    dest__item = self.client.parse_response(self.client.connection,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 584, in parse_response
+    response = connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 600, in read_response
+    raise ConnectionError(
+redis.exceptions.ConnectionError: Error while reading from 127.0.0.1:6379 : (10054, '遠端主機已強制關閉一個現存的連線。', None, 10054, None)
+2025-03-13 19:27:37,556 - celery.redirected - WARNING - Traceback (most recent call last):
+2025-03-13 19:27:37,558 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 592, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,558 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\resp2.py", line 15, in read_response
+    result = self._read_response(disable_decoding=disable_decoding)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,559 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\resp2.py", line 25, in _read_response
+    raw = self._buffer.readline()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,560 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\socket.py", line 115, in readline
+    self._read_from_socket()
+2025-03-13 19:27:37,560 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\_parsers\socket.py", line 65, in _read_from_socket
+    data = self._sock.recv(socket_read_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,561 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\gevent\_socketcommon.py", line 656, in recv
+    return self._sock.recv(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,561 - celery.redirected - WARNING - ConnectionResetError: [WinError 10054] 遠端主機已強制關閉一個現存的連線。
+2025-03-13 19:27:37,561 - celery.redirected - WARNING - 
+During handling of the above exception, another exception occurred:
+2025-03-13 19:27:37,562 - celery.redirected - WARNING - Traceback (most recent call last):
+2025-03-13 19:27:37,564 - celery.redirected - WARNING -   File "src\\gevent\\_waiter.py", line 122, in gevent._gevent_c_waiter.Waiter.switch
+2025-03-13 19:27:37,564 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\pidbox.py", line 118, in loop
+    connection.drain_events(timeout=1.0)
+2025-03-13 19:27:37,565 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\connection.py", line 341, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,565 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\virtual\base.py", line 997, in drain_events
+    get(self._deliver, timeout=timeout)
+2025-03-13 19:27:37,566 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 591, in get
+    ret = self.handle_event(fileno, event)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,567 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 573, in handle_event
+    return self.on_readable(fileno), self
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,567 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 569, in on_readable
+    chan.handlers[type]()
+2025-03-13 19:27:37,567 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 918, in _receive
+    ret.append(self._receive_one(c))
+               ^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,567 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\kombu\transport\redis.py", line 928, in _receive_one
+    response = c.parse_response()
+               ^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,568 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 865, in parse_response
+    response = self._execute(conn, try_read)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,568 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 841, in _execute
+    return conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,569 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\retry.py", line 65, in call_with_retry
+    fail(error)
+2025-03-13 19:27:37,569 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 843, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,569 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 830, in _disconnect_raise_connect
+    raise error
+2025-03-13 19:27:37,570 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+2025-03-13 19:27:37,570 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 842, in <lambda>
+    lambda: command(*args, **kwargs),
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,570 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\client.py", line 863, in try_read
+    return conn.read_response(disconnect_on_error=False, push_request=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-03-13 19:27:37,586 - celery.redirected - WARNING -   File "D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\redis\connection.py", line 600, in read_response
+    raise ConnectionError(
+2025-03-13 19:27:37,586 - celery.redirected - WARNING - redis.exceptions.ConnectionError: Error while reading from 127.0.0.1:6379 : (10054, '遠端主機已強制關閉一個現存的連線。', None, 10054, None)
+2025-03-13 19:27:37,587 - celery.redirected - WARNING - 2025-03-13T11:27:37Z
+2025-03-13 19:27:37,587 - celery.redirected - WARNING -  
+2025-03-13 19:27:37,588 - celery.redirected - WARNING - <built-in method switch of gevent._gevent_c_greenlet_primitives.TrackedRawGreenlet object at 0x00000228B5B37BC0> failed with ConnectionError
+2025-03-13 19:27:37,589 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:391: CPendingDeprecationWarning: 
+In Celery 5.1 we introduced an optional breaking change which
+on connection loss cancels all currently executed tasks with late acknowledgement enabled.
+These tasks cannot be acknowledged as the connection is gone, and the tasks are automatically redelivered
+back to the queue. You can enable this behavior using the worker_cancel_long_running_tasks_on_connection_loss
+setting. In Celery 5.1 it is set to False by default. The setting will be set to True by default in Celery 6.0.
+
+  warnings.warn(CANCEL_TASKS_BY_DEFAULT, CPendingDeprecationWarning)
+
+2025-03-13 19:27:37,591 - celery.worker.consumer.consumer - INFO - Temporarily reducing the prefetch count to 4 to avoid over-fetching since 0 tasks are currently being processed.
+The prefetch count will be gradually restored to 0 as the tasks complete processing.
+2025-03-13 19:27:39,653 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-13 19:27:41,690 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 2.00 seconds... (1/100)
+
+2025-03-13 19:27:45,733 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 4.00 seconds... (2/100)
+
+2025-03-13 19:27:51,788 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 6.00 seconds... (3/100)
+
+2025-03-13 19:27:59,837 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 8.00 seconds... (4/100)
+
+2025-03-13 19:28:09,889 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 10.00 seconds... (5/100)
+
+2025-03-13 19:28:21,949 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 12.00 seconds... (6/100)
+
+2025-03-13 19:28:36,003 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 14.00 seconds... (7/100)
+
+2025-03-13 19:28:52,060 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 16.00 seconds... (8/100)
+
+2025-03-13 19:29:10,130 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 18.00 seconds... (9/100)
+
+2025-03-13 19:29:30,179 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 20.00 seconds... (10/100)
+
+2025-03-13 19:29:52,240 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 22.00 seconds... (11/100)
+
+2025-03-13 19:30:16,280 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 24.00 seconds... (12/100)
+
+2025-03-13 19:30:42,333 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 26.00 seconds... (13/100)
+
+2025-03-13 19:31:10,391 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 28.00 seconds... (14/100)
+
+2025-03-13 19:31:40,453 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 30.00 seconds... (15/100)
+
+2025-03-13 19:32:12,504 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:32:46,579 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:33:20,631 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:33:54,688 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:34:28,753 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:35:02,805 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:35:36,868 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:36:10,932 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:36:45,004 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:37:19,060 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:37:53,119 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:38:27,181 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:39:01,241 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:39:35,312 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:40:09,387 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:40:43,453 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:41:17,532 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:41:51,604 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:42:25,658 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:42:59,729 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:43:33,819 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:44:07,869 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:44:41,952 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:45:16,012 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:45:50,063 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:46:24,117 - celery.worker.consumer.consumer - ERROR - consumer: Cannot connect to redis://127.0.0.1:6379/1: Error 10061 connecting to 127.0.0.1:6379. [WinError 10061] 無法連線，因為目標電腦拒絕連線。..
+Trying again in 32.00 seconds... (16/100)
+
+2025-03-13 19:46:56,140 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-03-13 19:46:56,141 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-13 19:46:56,151 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-03-13 19:46:57,181 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-03-13 19:46:57,195 - py.warnings - WARNING - D:\Desktop\VscodeData\VueCourse1\django_vue\.venv\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-03-13 19:46:57,205 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.

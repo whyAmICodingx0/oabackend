@@ -1,0 +1,17 @@
+https://www.bilibili.com/cheese/play/ep654499?csource=common_hp_favorite_null&spm_id_from=333.1387.0.0
+59堂開始，OA系統項目實戰篇
+
+database: django_vue
+
+pip install:
+	- pyjwt
+	- djangorestframework
+	- django-cors-headers
+	- mysqlclient
+	- django-shortuuidfield
+	- pillow
+	- pycryptodome
+	- pip install -U "celery[redis]"
+	- gevent
+	- pandas
+	- openpyxl
