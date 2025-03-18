@@ -42,3 +42,7 @@ class DepartmentStaffCountView(APIView):
         print(rows)
         print('='*10)
         return Response(rows)
+
+class HealthCheckView(APIView):
+    def get(self, request):
+        return Response({"code": 200})
