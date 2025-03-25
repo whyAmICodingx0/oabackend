@@ -27,7 +27,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = 'django-insecure-4w&p_(4(q#gsy*1b4eqg98x3l7g(iai5*6+_p+#j2yk4@gi^a@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'oaback', '192.168.118.128']
 
@@ -94,7 +94,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         "NAME": env.str('DB_NAME', 'django_vue'),
         "USER": env.str('DB_USER', "root"),
-        "PASSWORD": env.str("DB_PASSWORD", "root"),
+        "PASSWORD": env.str("DB_PASSWORD", "123456"),
         "HOST": env.str('DB_HOST', 'localhost'),
         "PORT": env.str('DB_PORT', 3306),
     }
@@ -190,34 +190,34 @@ CACHES = {
     }
 }
 
-LOGGING = {
-    "version": 1,
-    'disable_existing_loggers': True,
-    'formatters': {
-        'verbose': {
-            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
-        },
-        'simple': {
-            'format': '%(levelname)s %(message)s'
-        },
-    },
-    'handlers': {
-        'console':{
-            'level': 'DEBUG',
-            'class': 'logging.StreamHandler',
-            'formatter': 'verbose'
-        },
-       'file': {
-           'level': 'DEBUG',
-           'class': 'logging.FileHandler',
-           'filename': '/data/log/oa.log',
-           'formatter': 'verbose'
-       },
-    },
-    'loggers': {
-        'django': {
-            'handlers': ['console','file'],
-            'level': 'DEBUG',
-        },
-    },
-}
+# LOGGING = {
+#     "version": 1,
+#     'disable_existing_loggers': True,
+#     'formatters': {
+#         'verbose': {
+#             'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
+#         },
+#         'simple': {
+#             'format': '%(levelname)s %(message)s'
+#         },
+#     },
+#     'handlers': {
+#         'console':{
+#             'level': 'DEBUG',
+#             'class': 'logging.StreamHandler',
+#             'formatter': 'verbose'
+#         },
+#        'file': {
+#            'level': 'DEBUG',
+#            'class': 'logging.FileHandler',
+#            'filename': '/data/log/oa.log',
+#            'formatter': 'verbose'
+#        },
+#     },
+#     'loggers': {
+#         'django': {
+#             'handlers': ['console','file'],
+#             'level': 'DEBUG',
+#         },
+#     },
+# }
