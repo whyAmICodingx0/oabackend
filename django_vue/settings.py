@@ -27,7 +27,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = 'django-insecure-4w&p_(4(q#gsy*1b4eqg98x3l7g(iai5*6+_p+#j2yk4@gi^a@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env.bool('DEBUG', True)
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'oaback', '192.168.118.128']
 
@@ -173,7 +173,7 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 EMAIL_HOST_USER = 'james1859635@gmail.com'
-EMAIL_HOST_PASSWORD = 'kviisvmjvacsvote'
+EMAIL_HOST_PASSWORD = env.str('EMAIL_HOST_PASSWORD', 'kviisvmjvacsvote')
 DEFAULT_FROM_EMAIL = 'james1859635@gmail.com'
 
 # CELERY相關配置

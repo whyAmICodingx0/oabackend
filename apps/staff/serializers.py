@@ -32,9 +32,9 @@ class ActiveStaffSerializer(serializers.Serializer):
         password = attrs.get('password')
         user = OAUser.objects.filter(email=email).first()
         # if user.status == 1:
-        #     raise serializers.ValidationError('帳號已激活')
+        #     raise serializers.ValidationError('帳號已啟用')
         # if user.status == 3:
-        #     raise serializers.ValidationError('帳號無法激活')
+        #     raise serializers.ValidationError('帳號無法啟用')
         if not user or not user.check_password(password):
             raise serializers.ValidationError('信箱或密碼錯誤')
         attrs['user'] = user

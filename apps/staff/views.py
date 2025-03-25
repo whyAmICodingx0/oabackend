@@ -38,12 +38,12 @@ def send_active_email(request, email):
     active_path = reverse('staff:active_staff') + '?' + parse.urlencode({'token': token})
     # http://127.0.0.1:8000/staff/active?token=xxx
     active_url = request.build_absolute_uri(active_path)
-    # 發送一個連結，讓用戶點集連結後，跳轉到激活頁面，才能激活
+    # 發送一個連結，讓用戶點集連結後，跳轉到啟用頁面，才能啟用
     # 為了區分用戶，在發送連結中，該連結中應該要包含這個用戶的信箱
     # 針對信箱要進行加密:AES
-    message = f'請點集以下連結激活帳號: {active_url}'
-    subject = f'帳號激活通知'
-    # send_mail(f'帳號激活通知', recipient_list=[email], message=message, from_email=settings.DEFAULT_FROM_EMAIL)
+    message = f'請點集以下連結啟用帳號: {active_url}'
+    subject = f'帳號啟用通知'
+    # send_mail(f'帳號啟用通知', recipient_list=[email], message=message, from_email=settings.DEFAULT_FROM_EMAIL)
     send_mail_task.delay(email, subject, message)
 
 
@@ -51,10 +51,10 @@ class DepartmentListView(ListAPIView):
     queryset = OADepartment.objects.all().order_by('id')
     serializer_class = DepartmentSerializer
 
-# 激活員工的過程
-# 1. 用戶訪問激活連結的時候，會返回含有表單的頁面，是圖中可以獲取到token，為了在用戶提交表單的時候
+# 啟用員工的過程
+# 1. 用戶訪問啟用連結的時候，會返回含有表單的頁面，是圖中可以獲取到token，為了在用戶提交表單的時候
 # post函數中能知道這個token，我們可以在返回頁面之前，先把token儲存在cookie中
-# 2. 較驗用戶上傳的信箱和密碼是否正確，並且解密token中的信箱，與用戶提交的信箱進行對比，如果都相同那麼就是激活成功
+# 2. 較驗用戶上傳的信箱和密碼是否正確，並且解密token中的信箱，與用戶提交的信箱進行對比，如果都相同那麼就是啟用成功
 class ActiveStaffView(APIView):
     def get(self, request):
         # http://127.0.0.1:8000/staff/active?token=BCD2PO8XseQlm%2F1vA5ZxMAbKzIIiNoczdgvcV6Mod88MaX3brZbM9ICg0F0iEN5B
@@ -149,7 +149,7 @@ class StaffViewSet(
             # user.department = department
             # user.save()
 
-            # 2. 發送激活信箱 I/O: 網路請求、文件讀寫
+            # 2. 發送啟用信箱 I/O: 網路請求、文件讀寫
             send_active_email(request, email)
 
             return Response()

@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>知了课堂-账号激活</title>
+    <title>知了课堂-账号啟用</title>
     <link href="{% static 'bootstrap5/bootstrap.min.css' %}" rel="stylesheet">
     <script src="{% static 'jquery/jquery-3.7.1.min.js' %}"></script>
     <style>
@@ -40,7 +40,7 @@
 <body class="mt-5 bg-body-tertiary">
     <main class="form-signin w-100 m-auto">
         <form method="POST">
-            <h1 class="h3 mb-3 fw-normal">知了课堂-员工激活</h1>
+            <h1 class="h3 mb-3 fw-normal">知了课堂-员工啟用</h1>
             <div class="form-floating">
                 <input name="email" type="email" class="form-control" id="emailInput" placeholder="请输入邮箱">
                 <label for="emailInput">邮箱</label>
@@ -49,7 +49,7 @@
                 <input name="password" type="password" class="form-control" id="passwordInput" placeholder="请输入密码">
                 <label for="passwordInput">密码</label>
             </div>
-            <button class="btn btn-primary w-100 py-2" type="submit" id="submit-btn">激活</button>
+            <button class="btn btn-primary w-100 py-2" type="submit" id="submit-btn">啟用</button>
         </form>
     </main>
 
@@ -69,7 +69,7 @@
             }
             $.post("/staff/active", {email, password}, function (result){
                 if(result.code == 200){
-                    alert("激活成功！")
+                    alert("啟用成功！")
                     window.location = "/"
                 }else{
                     alert(result.message)
