@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     "apps.absent.apps.AbsentConfig",
     'apps.inform',
     "apps.staff.apps.StaffConfig",
-    "apps.image.apps.ImageConfig"
+    "apps.image.apps.ImageConfig",
+    "apps.weather.apps.WeatherConfig"
 ]
 
 MIDDLEWARE = [
@@ -166,6 +167,9 @@ REST_FRAMEWORK = {
 # 控制 URL 結尾是否自動加上斜線。
 APPEND_SLASH=False
 
+# 天氣查詢
+CWA_API_KEY='CWA-B6655DDE-4A3F-427D-BACC-00E1D25EFAC1'
+
 # 信箱配置
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
@@ -189,6 +193,7 @@ CACHES = {
         "LOCATION": env.str('CACHE_URL', "redis://127.0.0.1:6379/3"),
     }
 }
+
 
 # LOGGING = {
 #     "version": 1,

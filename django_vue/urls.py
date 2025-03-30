@@ -27,4 +27,5 @@ urlpatterns = [
     path('api/staff/', include('apps.staff.urls')),
     path('api/image/', include('apps.image.urls')),
     path('api/home/', include('apps.home.urls')),
+    path('api/cwa/', include('apps.weather.urls'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
