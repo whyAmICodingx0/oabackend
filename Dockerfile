@@ -4,7 +4,7 @@ COPY . /www/
 
 WORKDIR /www
 
-RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+RUN pip install -r requirements.txt
 
 RUN pip install uwsgi==2.0.25.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
