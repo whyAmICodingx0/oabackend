@@ -1220,3 +1220,30 @@ you should set broker_connection_retry_on_startup to True.
   warnings.warn(
 
 2025-03-13 19:46:57,205 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-04-02 15:48:23,124 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-04-02 15:48:23,140 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-04-02 15:48:24,213 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-04-02 15:48:24,241 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-04-02 15:48:24,261 - celery.apps.worker - INFO - celery@MSI ready.
+2025-04-02 15:48:28,255 - celery.worker.strategy - INFO - Task send_mail_task[653621c1-b356-4ec1-b471-c9aed4d5736d] received
+2025-04-02 15:48:31,898 - celery.redirected - WARNING - 寄郵件成功
+2025-04-02 15:48:31,926 - celery.app.trace - INFO - Task send_mail_task[653621c1-b356-4ec1-b471-c9aed4d5736d] succeeded in 3.655999999959022s: None
+2025-04-02 15:53:54,659 - celery.worker.strategy - INFO - Task send_mail_task[3f60e50a-65ab-49d2-b4e7-b14e5cc41dd3] received
+2025-04-02 15:53:57,187 - celery.redirected - WARNING - 寄郵件成功
+2025-04-02 15:53:57,220 - celery.app.trace - INFO - Task send_mail_task[3f60e50a-65ab-49d2-b4e7-b14e5cc41dd3] succeeded in 2.562999999965541s: None
+2025-04-04 15:46:19,720 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-04-04 15:46:19,756 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-04-04 15:46:20,780 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-04-04 15:46:20,803 - celery.apps.worker - INFO - celery@MSI ready.
+2025-04-04 15:46:20,808 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-04-04 15:48:42,157 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-04-04 15:48:42,167 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-04-04 15:48:43,186 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-04-04 15:48:43,195 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-04-04 15:48:43,203 - celery.apps.worker - INFO - celery@MSI ready.
+2025-04-04 15:52:45,305 - celery.worker.strategy - INFO - Task send_mail_task[875804ed-1188-4570-bb5b-e0068489b6aa] received
+2025-04-04 15:52:48,892 - celery.redirected - WARNING - 寄郵件成功
+2025-04-04 15:52:48,922 - celery.app.trace - INFO - Task send_mail_task[875804ed-1188-4570-bb5b-e0068489b6aa] succeeded in 3.60999999998603s: None
+2025-04-04 16:26:37,531 - celery.worker.strategy - INFO - Task send_mail_task[ab067786-bcbd-4dfc-b8eb-2fc67e5179ee] received
+2025-04-04 16:26:40,730 - celery.redirected - WARNING - 寄郵件成功
+2025-04-04 16:26:40,762 - celery.app.trace - INFO - Task send_mail_task[ab067786-bcbd-4dfc-b8eb-2fc67e5179ee] succeeded in 3.23499999998603s: None

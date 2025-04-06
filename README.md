@@ -23,6 +23,7 @@ python manage.py initdepartments
 python manage.py inituser
 python manage.py initabsenttype
 python manage.py runserver
+python -m celery -A django_vue worker -l INFO -P gevent
 ```
 
 ## Docker 快速啟動

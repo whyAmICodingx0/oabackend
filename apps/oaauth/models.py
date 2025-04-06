@@ -5,9 +5,9 @@ from django.db.models.fields.related import RelatedField
 from shortuuidfield import ShortUUIDField
 
 class UserStatusChoices(models.IntegerChoices):
-    # 已經繳活的
+    # 已經啟用的
     ACTIVED = 1
-    # 沒有繳活
+    # 沒有啟用
     UNACTIVE = 2
     # 被鎖定
     LOCKED = 3

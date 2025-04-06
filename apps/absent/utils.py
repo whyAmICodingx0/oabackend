@@ -1,7 +1,7 @@
 
 def get_responder(request):
     user = request.user
-    # 獲取審批者
+    # 獲取審核者
     # 1. 如果是部門leader
     if user.department.leader.uid == user.uid:
         # 1.1 如果是董事會

@@ -9,10 +9,10 @@ from .utils import get_responder
 from apps.oaauth.serializers import UserSerializer
 
 # Create your views here.
-# 1. 發起考勤(create)
-# 2. 處理考勤(update)
-# 3. 查看自己考勤列表(list?who=my)
-# 4. 查看下屬考勤列表(list?who=sub)
+# 1. 發起請假(create)
+# 2. 處理請假(update)
+# 3. 查看自己請假列表(list?who=my)
+# 4. 查看下屬請假列表(list?who=sub)
 # class AbsentViewSet(viewsets.ModelViewSet):
 class AbsentViewSet(mixins.CreateModelMixin,
                    mixins.UpdateModelMixin,
@@ -55,7 +55,7 @@ class AbsentTypeView(APIView):
         serializer = AbsentTypeSerializer(types, many=True)
         return Response(serializer.data)
 
-# 2. 顯示省批者
+# 2. 顯示審核者
 class ResponderView(APIView):
     def get(self, request):
         responder = get_responder(request)

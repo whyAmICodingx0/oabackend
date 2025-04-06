@@ -9,4 +9,4 @@ class Command(BaseCommand):
         for absent_type in absent_types:
             absents.append(AbsentType(name=absent_type))
         AbsentType.objects.bulk_create(absents)
-        self.stdout.write('考勤類型數據初始化成功！')
+        self.stdout.write('請假類型數據初始化成功！')

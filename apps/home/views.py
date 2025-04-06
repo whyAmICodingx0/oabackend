@@ -14,7 +14,7 @@ class LatestInformView(APIView):
     """
     返回最新的十條通知
     """
-    @method_decorator(cache_page(60 * 5))
+    @method_decorator(cache_page(60 * 15))
     def get(self, request):
         current_user = request.user
         # 返回公共的，或者是我所在的部門能看到的通知
@@ -24,9 +24,9 @@ class LatestInformView(APIView):
 
 
 class LatestAbsentView(APIView):
-    @method_decorator(cache_page(60 * 5))
+    @method_decorator(cache_page(60 * 15))
     def get(self, request):
-        # 董事會的人可以看到所有人的考勤訊息，非董事會只能看到自己部門的
+        # 董事會的人可以看到所有人的請假訊息，非董事會只能看到自己部門的
         current_user = request.user
         queryset = Absent.objects
         if current_user.department.name != '董事會':
@@ -36,7 +36,7 @@ class LatestAbsentView(APIView):
         return Response(serializer.data)
 
 class DepartmentStaffCountView(APIView):
-    @method_decorator(cache_page(60 * 5))
+    @method_decorator(cache_page(60 * 15))
     def get(self, request):
         rows = OADepartment.objects.annotate(staff_count=Count('staffs')).values('name', 'staff_count')
         print(rows)

@@ -19,7 +19,7 @@ class LoginSerializer(serializers.Serializer):
             if not user.check_password(password):
                 raise serializers.ValidationError('密碼錯誤')
             if user.status == UserStatusChoices.UNACTIVE:
-                raise serializers.ValidationError('用戶未被繳活')
+                raise serializers.ValidationError('用戶未被啟用')
             elif user.status == UserStatusChoices.LOCKED:
                 raise serializers.ValidationError('用戶已經被鎖定')
             # 為了節省查找SQL次數，這裡把user直接放到attrs中

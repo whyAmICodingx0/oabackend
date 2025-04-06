@@ -154,7 +154,7 @@ class StaffViewSet(
 
             return Response()
         else:
-            return Response(data={'detail': list(serializer.errors.value())[0][0]}, status=status.HTTP_400_BAD_REQUEST)
+            return Response(data={'detail': list(serializer.errors.values())[0][0]}, status=status.HTTP_400_BAD_REQUEST)
 
     def update(self, request, *args, **kwargs):
         # 可以單獨修改設置

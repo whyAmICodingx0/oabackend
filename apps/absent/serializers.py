@@ -23,14 +23,14 @@ class AbsentSerializer(serializers.ModelSerializer):
     # 驗證absent_type_id是否在資料庫存在
     def validate_absent_type_id(self, value):
         if not AbsentType.objects.filter(id=value).exists():
-            raise exceptions.ValidationError('考勤類型不存在')
+            raise exceptions.ValidationError('請假類型不存在')
         return value
 
     # create
     def create(self, validated_data):
         request = self.context['request']
         user = request.user
-        # 獲取審批者
+        # 獲取審核者
         responder = get_responder(request)
         # 如果是董事會的leader，請假直接通過
         if responder is None:
@@ -47,7 +47,7 @@ class AbsentSerializer(serializers.ModelSerializer):
         request = self.context['request']
         user = request.user
         if instance.responder.uid != user.uid:
-            raise exceptions.AuthenticationFailed(detail='你無權處理該考勤')
+            raise exceptions.AuthenticationFailed(detail='你無權處理該請假')
         instance.status = validated_data['status']
         instance.response_content = validated_data['response_content']
         instance.save()

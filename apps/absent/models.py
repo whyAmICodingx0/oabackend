@@ -5,7 +5,7 @@ OAUser = get_user_model()
 
 
 class AbsentStatusChoices(models.IntegerChoices):
-    # 審批中
+    # 審核中
     AUDITING = 1
     # 審核通過
     PASS = 2
@@ -28,7 +28,7 @@ class Absent(models.Model):
     # 如果在一個模型中，有多個字段對同一個模型引用了外鍵，那麼必須指定 related_name 為不同的值
     # 4. 發起人
     requester = models.ForeignKey(OAUser, on_delete=models.CASCADE, related_name='my_absents', related_query_name='my_absents')
-    # 5. 審批人（可以為空）
+    # 5. 審核人（可以為空）
     responder = models.ForeignKey(OAUser, on_delete=models.CASCADE, related_name='sub_absents', related_query_name='sub_absents', null=True)
     # 6. 狀態
     status = models.IntegerField(choices=AbsentStatusChoices, default=AbsentStatusChoices.AUDITING)
@@ -38,7 +38,7 @@ class Absent(models.Model):
     end_date = models.DateField()
     # 9. 請假發起時間
     create_time = models.DateTimeField(auto_now_add=True)
-    # 10. 審批回覆內容
+    # 10. 審核回覆內容
     response_content = models.TextField(blank=True)
 
     class Meta:
